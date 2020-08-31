@@ -43,7 +43,7 @@
 				"criteria": [
 					{
 						"type": "IN_PORT",
-						"port": "26"
+						"port": "3"
 					}
 				]
 			}
@@ -65,7 +65,7 @@
 				"criteria": [
 					{
 						"type": "IN_PORT",
-						"port": "28"
+						"port": "4"
 					}
 				]
 			}
@@ -88,50 +88,6 @@
 					{
 						"type": "IN_PORT",
 						"port": "2"
-					}
-				]
-			}
-		},		
-		{
-			"priority": 100,
-			"timeout": 0,
-			"isPermanent": true,
-			"deviceId": "of:000078321bdf4000",
-			"treatment": {
-				"instructions": [
-                    {
-                       "type": "OUTPUT",
-                       "port": "28"
-                    }
-                ]
-			},
-			"selector": {
-				"criteria": [
-					{
-						"type": "IN_PORT",
-						"port": "28"
-					}
-				]
-			}
-		},		
-		{
-			"priority": 100,
-			"timeout": 0,
-			"isPermanent": true,
-			"deviceId": "of:000078321bdf4000",
-			"treatment": {
-				"instructions": [
-                    {
-                       "type": "OUTPUT",
-                       "port": "26"
-                    }
-                ]
-			},
-			"selector": {
-				"criteria": [
-					{
-						"type": "IN_PORT",
-						"port": "26"
 					}
 				]
 			}
