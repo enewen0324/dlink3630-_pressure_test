@@ -211,7 +211,7 @@
 				"instructions": [
                     {
                        "type": "OUTPUT",
-                       "port": "4"
+                       "port": "5"
                     }
                 ]
 			},
@@ -233,7 +233,7 @@
 				"instructions": [
                     {
                        "type": "OUTPUT",
-                       "port": "7"
+                       "port": "6"
                     }
                 ]
 			},
