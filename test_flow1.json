@@ -43,7 +43,7 @@
 				"criteria": [
 					{
 						"type": "IN_PORT",
-						"port": "26"
+						"port": "3"
 					}
 				]
 			}
@@ -65,7 +65,7 @@
 				"criteria": [
 					{
 						"type": "IN_PORT",
-						"port": "28"
+						"port": "4"
 					}
 				]
 			}
@@ -101,7 +101,7 @@
 				"instructions": [
                     {
                        "type": "OUTPUT",
-                       "port": "28"
+                       "port": "27"
                     }
                 ]
 			},
@@ -123,7 +123,7 @@
 				"instructions": [
                     {
                        "type": "OUTPUT",
-                       "port": "26"
+                       "port": "25"
                     }
                 ]
 			},
@@ -132,6 +132,72 @@
 					{
 						"type": "IN_PORT",
 						"port": "26"
+					}
+				]
+			}
+		},		
+		{
+			"priority": 100,
+			"timeout": 0,
+			"isPermanent": true,
+			"deviceId": "of:000078321bdf4000",
+			"treatment": {
+				"instructions": [
+                    {
+                       "type": "OUTPUT",
+                       "port": "25"
+                    }
+                ]
+			},
+			"selector": {
+				"criteria": [
+					{
+						"type": "IN_PORT",
+						"port": "26"
+					}
+				]
+			}
+		},		
+		{
+			"priority": 100,
+			"timeout": 0,
+			"isPermanent": true,
+			"deviceId": "of:000078321bdf4000",
+			"treatment": {
+				"instructions": [
+                    {
+                       "type": "OUTPUT",
+                       "port": "4"
+                    }
+                ]
+			},
+			"selector": {
+				"criteria": [
+					{
+						"type": "IN_PORT",
+						"port": "5"
+					}
+				]
+			}
+		},		
+		{
+			"priority": 100,
+			"timeout": 0,
+			"isPermanent": true,
+			"deviceId": "of:000078321bdf4000",
+			"treatment": {
+				"instructions": [
+                    {
+                       "type": "OUTPUT",
+                       "port": "7"
+                    }
+                ]
+			},
+			"selector": {
+				"criteria": [
+					{
+						"type": "IN_PORT",
+						"port": "6"
 					}
 				]
 			}

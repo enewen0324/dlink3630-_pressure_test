@@ -1,0 +1,78 @@
+{
+	"type": "ALL",
+	"appCookie": "0x9234abc3",
+	"groupId": 805371906,
+	"buckets": 
+	[
+		{
+			"treatment": {
+				"instructions": [
+					{
+						"type": "GROUP",
+						"groupId": 65562
+					}
+				]
+			}
+		},
+		{
+			"treatment": {
+				"instructions": [
+					{
+						"type": "GROUP",
+						"groupId": 65564
+					}
+				]
+			}
+        },
+		{
+			"treatment": {
+				"instructions": [
+					{
+						"type": "GROUP",
+						"groupId": 65538
+					}
+				]
+			}
+        },
+		{
+			"treatment": {
+				"instructions": [
+					{
+						"type": "GROUP",
+						"groupId": 65539
+					}
+				]
+			}
+        },
+		{
+			"treatment": {
+				"instructions": [
+					{
+						"type": "GROUP",
+						"groupId": 65540
+					}
+				]
+			}
+        },
+		{
+			"treatment": {
+				"instructions": [
+					{
+						"type": "GROUP",
+						"groupId": 65541
+					}
+				]
+			}
+        },
+		{
+			"treatment": {
+				"instructions": [
+					{
+						"type": "GROUP",
+						"groupId": 65542
+					}
+				]
+			}
+        }     
+	]
+}
